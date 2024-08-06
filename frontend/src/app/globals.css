@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.auth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #010101;
+}
+.authContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px white;
+  padding: 20px;
+}
+.authImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.authInput{
+  background-color: #010101!important;
+  border: solid 2px white!important;
+  border-radius: 0!important;
+  color: white!important;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+.authLabel label{
+  color: white!important;
+}
+.authLabel label::after{
+  background-color: #010101!important;
+  color: white!important;
+}
+.authButton{
+  width: 100%;
+  border: solid 2px white!important;
+  border-radius: 0!important;
+  background-color: #010101!important;
+  margin-top: 15px;
+}
